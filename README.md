@@ -1,6 +1,8 @@
-# **Component Codex Project**
+![HEADER IMAGE](https://github.com/theamallalgi/codex/blob/main/dependencies/header.png?raw=true)
 
-Welcome to the **Component Codex**, a structured and systematic approach to organizing and categorizing tangible and intangible components, objects, and tools. This project aims to standardize the classification of physical and digital assets to make them easier to identify, track, and reference using a unified code structure.
+# The Component Codex 📜
+
+The **Component Codex**, a structured and systematic approach to organizing and categorizing tangible and intangible components, objects, and tools. This project aims to standardize the classification of physical and digital assets to make them easier to identify, track, and reference using a unified code structure.
 
 ## **Table of Contents**
 1. [Overview](#overview)
@@ -11,13 +13,9 @@ Welcome to the **Component Codex**, a structured and systematic approach to orga
 5. [Examples](#examples)
 6. [Special Cases](#special-cases)
 
----
-
 ## **Overview**
 
 The **Component Codex** aims to provide a structured framework to classify physical and digital items. Each item is classified under a set of predefined categories, which allows for easy identification and organization. The codification system assigns unique 3-digit serial numbers to each item, ensuring a standard format across different types of components.
-
----
 
 ## **Classification System**
 
@@ -58,8 +56,6 @@ The classification system is divided into several **hierarchies** and **categori
    - **PS** – Public (Items shared or available to multiple users)  
    - **PNW/PSW** – Work or Product-Made (Items created for others or as a product for public consumption)
 
----
-
 ## **Code Syntax**
 
 Each item is assigned a unique code based on the classification hierarchy. The code is structured as follows:
@@ -75,8 +71,6 @@ Each item is assigned a unique code based on the classification hierarchy. The c
 - **(NAME)** – A shortened name or identifier for the item preferably not longer than 3 letters
 - **[SLNO]** – A unique 3-digit serial number starting from [001]
 
----
-
 ## **Code Generation Rules**
 
 1. **Serial Numbering**:  
@@ -90,8 +84,6 @@ Each item is assigned a unique code based on the classification hierarchy. The c
    - The codes always follow the pattern `[H1][H2][H3](NAME)[SLNO]`, ensuring consistency across all items.
    - Use **3-letter abbreviations** for the item’s name.
 
----
-
 ## **Examples**
 
 ### **Example 1: Portable Laptop**  
@@ -104,8 +96,6 @@ Each item is assigned a unique code based on the classification hierarchy. The c
 
 **Code**: `TNPRNFPN(LPT)[001]`
 
----
-
 ### **Example 2: Cloud-Based Design File**  
 - **Primary Classification**: Intangible (IN)  
 - **Functional Category**: Cloud-Based (CL)  
@@ -116,15 +106,11 @@ Each item is assigned a unique code based on the classification hierarchy. The c
 
 **Code**: `INCLPSDES(DSF)[002]`
 
----
-
 ### **Special Cases:**
 
 - **Mother Component**:  
    Any category's first item will have the serial number **[000]**. This is the "Mother Component" and represents the core, starting item in that classification.  
    - For example, **Tangible Portable Laptop** might be the first instance of a portable item: `TNPRNFPN(LPT)[000]`
-
----
 
 ## **Conclusion**
 
